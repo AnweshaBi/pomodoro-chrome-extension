@@ -1,0 +1,35 @@
+body{
+    height: 400px;
+    width: 300px;
+    background-color: lightpink;
+    text-align: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.image{
+    height: 60px;
+    padding-top: 20px;
+}
+div{
+    padding: 2px;
+    justify-content: center;
+}
+button{
+    color: beige;
+    background-color: rgb(222, 111, 111);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+

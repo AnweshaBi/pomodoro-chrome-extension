@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Apply a gradient background to the body */
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, lightcoral, white);
+    font-family: Arial, sans-serif;
+  }
+
+  img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 45px;
+    
+  }
+  
+  /* Style for the h1 tag */
+  h1 {
+    color: #8B0000; /* Brownish-red color */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the options */
+  .container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(244, 219, 231);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styled save button */
+  .save-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  /* Hover effect for the save button */
+  .save-button:hover {
+    background-color: red;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 600px) {
+    .save-button {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  
